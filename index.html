@@ -12,7 +12,7 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  </style> 
 </head>
 <body> 
 
@@ -25,7 +25,7 @@
     <div class="toggle">
       <p>Annually</p>
       <label class="switch">
-        <input type="checkbox">
+        <input type="checkbox" id="switchPlan">
         <span class="slider round"></span>
       </label>
       <p>Monthly</p>
@@ -35,7 +35,7 @@
 
       <div class="col">
         <h3>Basic</h3>
-        <h1 class="cost" id="cost">$199.99</h1>
+        <h1 class="cost" id="basic">$199.99</h1>
         <p>500 GB Storage</p>
         <p>2 Users Allowed</p>
         <p>Send up to 3 GB</p>
@@ -43,7 +43,7 @@
       </div>
       <div class="mid col">
         <h3>Professional</h3>
-        <h1 class="cost" id="cost">$249.99</h1>
+        <h1 class="cost" id="professional">$249.99</h1>
         <p>1 TB Storage</p>
         <p>5 Users Allowed</p>
         <p>Send up to 10 GB</p>
@@ -51,7 +51,7 @@
       </div>
       <div class="col">
         <h3>Master</h3>
-        <h1 class="cost" id="cost">$399.99</h1>
+        <h1 class="cost" id="master">$399.99</h1>
         <p>2 TB Storage</p>
         <p>10 Users Allowed</p>
         <p>Send up to 20 GB</p>
@@ -66,6 +66,8 @@
     <img src="images/bg-bottom.svg" class="bottom">
     <img src="images/bg-top.svg" class="top">
   </div>
+
+  <script src="app.js"></script>
 
   <!-- Our Pricing
   Annually

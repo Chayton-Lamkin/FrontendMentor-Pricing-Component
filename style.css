@@ -158,3 +158,13 @@ body {
     background: #fff;
     color: hsl(237, 63%, 64%);
 }
+.plan-wrapper button:hover {
+    background: transparent;
+    border: 1px solid hsl(237, 63%, 64%);
+    color: hsl(237, 63%, 64%);
+}
+.plan-wrapper .mid button:hover {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
